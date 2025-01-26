@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             for (let i = 1; i <= 6; i++) {
                 const piece = document.createElement('div');
                 piece.classList.add('puzzle-piece');
-                piece.style.backgroundImage = `url('Imagenes/ivel_${level}/${i}.png')`;
+                piece.style.backgroundImage = `url('Imagenes/Nivel_${level}/${i}.png')`;
                 piece.dataset.position = i;
                 piece.addEventListener('click', selectPiece);
                 pieces.push(piece);
