@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rompecabezas de Flores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Rompecabezas de Flores</h1>
+    <div class="instructions">
+        <p>Selecciona un nivel para comenzar. Para jugar, haz click en las piezas para seleccionar y moverlas. ¡Completa el rompecabezas y diviértete!</p>
+    </div>
+    <div class="level-selector">
+        <label for="level">Selecciona el nivel:</label>
+        <select id="level">
+            <option value="" selected>- Selecciona nivel -</option>
+            <option value="1">Nivel 1</option>
+            <option value="2">Nivel 2</option>
+            <option value="3">Nivel 3</option>
+            <option value="4">Nivel 4</option> <!-- Agrega nivel 4 -->
+        </select>
+    </div>
+    <div class="puzzle-container" id="puzzle-container"></div>
+    <h2 id="message"></h2>
+    <script src="script.js"></script>
+</body>
+</html>
